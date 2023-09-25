@@ -11,6 +11,8 @@
 // The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
 
 
+
+// option 1
 // var merge = function(nums1, m, nums2, n) {
     
 //     for (let i = m, j = 0; j < n; i++, j++) {
@@ -22,6 +24,7 @@
 // }
 
 
+// option 2
 // using two pointers
 
 var merge = function(nums1, m, nums2, n) {
@@ -36,7 +39,7 @@ var merge = function(nums1, m, nums2, n) {
             nums1[k--] = nums2[j--];
         }
     }
-    return nums1
+   
 };
 
 console.log(merge([1,2,3,0,0], 3, [5,6,3,445,5], 5))
