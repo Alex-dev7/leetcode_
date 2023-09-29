@@ -10,4 +10,7 @@ const kidsWithCandies = function(candies, extraCandies) {
 };
 
 
+// Time complexity: O(n)
+
+
 console.log(kidsWithCandies([2,3,5,1,3], 3))  // output [true,true,true,false,true]
